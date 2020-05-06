@@ -1,0 +1,45 @@
+Título de la columna,Tipo de dato,Descripción
+car,Número enteroj(integer),Código de carácter 
+car_desc,Texto (string),Cada uno de los agrupamientos en que se divide el Subsector Administración Gubernamental del Sector Público Gubernamental no Financiero. 
+jur,Número entero (integer),Código de jurisdicción 1 
+jur_desc,Texto (string),Son las organizaciones públicas sin personalidad jurídica que representan a cada uno de los poderes establecidos por la Constitución de Ciudad Autónoma de Buenos Aires. 
+sjur,Número entero (integer),Código de subjicción 
+sjur_desc,Texto (string),CampoTipoDescripciónEjemploCarEnteroCódigo de Carácter1Car_DescTextoCada uno de los agrupamientos en que se divide el Subsector Administración Gubernamental del Sector Público 
+ent,Número entero (integer),código de entidad 2 
+ent_desc,Texto (string),"Toda organización pública con personería jurídica y patrimonio propio, se trate de empresas o sociedades y organismos descentralizados"
+ogese,Número entero (integer),Código de Oficinas de gestión sectorial 
+ogese_desc,Texto (string),Oficinas de gestión sectorial 
+ue,Número entero (integer),Código de unidad ejecutora 3 
+ue_desc,Texto (string),"Centro administrativo responsable de la planificación, programación, asignación formal y utilización de recursos en función de una producción o provisión de bienes y servicios determinada"
+prog,Número entero (integer),Código de programa 3 
+prog_desc,Texto (string),"Dentro de la clasificación de Categorías Programáticas, el Programa representa una asignación formal de recursos, físicos y financieros, que tiene a su cargo la producción"
+sprog,Número entero (integer),Código de subprograma 3 
+sprog_desc,Texto (string),Es un centro formal de asignación de recursos que tiene por finalidad precisar con un mayor grado de desagregación la producción del programa que le da origen. 
+proy,Número entero (integer),Código de proyecto 3 
+proy_desc,Texto (string),"Dentro de la clasificación por Categoría Programática, el proyecto es el proceso de producción de un bien de capital destinado a crear, ampliar o modernizar la capacidad de oferta"
+act,Número entero (integer),Código de actividad 3 
+act_desc,Texto (string),"Dentro de la clasificación por Categoría Programática, la Actividad refleja los procesos contenidos en las acciones presupuestarias de mínimo nivel cuya producción es intermedia."
+obra,Número entero (integer),Código de obra 3 
+obra_desc,Texto (string),"Dentro de la clasificación por Categoría Programática, la obra representa una de las desagregaciones de los proyectos."
+fin,Número entero (integer),Código de finalidad 1 
+fin_desc,Texto (string),Es un criterio de clasificación del gasto según la naturaleza de los servicios que prestan las instituciones públicas a la comunidad. 
+fun,Número entero (integer),Código de función 1 
+fun_desc,Texto (string),Es el nivel de cuentas dentro de la clasificación del gasto por Finalidad y Función que permite examinar en el tiempo las tendencias del gasto para las funciones generales del Gobierno. 
+inciso,Número entero (integer),Código de inciso 1 
+inciso_desc,Texto (string),Nivel superior de los cuatro niveles de cuentas que conforman el Objeto de Gasto 
+ppal,Número entero (integer),Código de partida principal 1 
+ppal_desc,Texto (string),Es el nivel de segundo grado de cuentas dentro de las cuatro que conforman el Objeto de Gasto 
+parc,Número entero (integer),Código de partida parcial 1 
+parc_desc,Texto (string),Es el nivel de tercer grado de cuentas dentro de las cuatro que conforman el Objeto de Gasto 
+sparc,Número entero (integer),Código de partida subparcial 1 
+sparc_desc,Texto (string),"Es el nivel de mínimo grado de cuentas dentro de las cuatro que conforman el Objeto de Gasto que solo existe para los Incisos de Trasferencias, Activos financieros y Servicios de la deuda"
+eco,Número entero (integer),Codigo de clasificador económico 1 
+eco_desc,Texto (string),"La clasificación económica del gasto permite identificar la naturaleza económica de las transacciones que realiza el Sector Público, con el propósito de evaluar el impacto"
+ff,Número entero (integer),Código de fuente de financiamiento 1 
+ff_desc,Texto (string),"Consiste en la clasificación de los gastos públicos según los tipos genéricos de recursos empleados para su financiamiento, es decir que identifica el gasto según los ingresos que lo financian."
+geo,Número entero (integer),Código de ubicación geográfica 1 
+geo_desc,Texto (string),"Eco_DescTextoLa clasificación económica del gasto permite identificar la naturaleza económica de las transacciones que realiza el Sector Público, con el propósito de evaluar el impacto"
+sancion,Número entero (integer),Es el crédito aprobado por Ley de Presupuesto para cada ejercicio por La Legislatura de la Ciudad Autónoma de Buenos Aires y promulgado mediante decreto por el Poder Ejecutivo 
+vigente,Número entero (integer),Es el crédito sancionado más/menos las modificaciones presupuestarias realizadas dentro del ejercicio corriente 
+definitivo,Número entero (integer),"Es aquel que da origen a una relación jurídica con terceros, que originará, en el futuro, una eventual salida de fondos, sea para cancelar una deuda o para su inversión en un objeto determinado."
+devenegado,Número entero (integer),"s el surgimiento de una obligación de pago, por la recepción en conformidad de bienes o servicios oportunamente contratados o por haberse cumplido los requisitos administrativos"
