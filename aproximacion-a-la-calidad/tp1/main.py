@@ -2,6 +2,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import scipy
+from scipy.stats import chi2_contingency
 
 
 def main():
@@ -24,10 +26,28 @@ def main():
 
     print(data[nonCategorical].describe())
 
-    print(data[categoricalIds].describe())
-    print(data[categoricalDesc].describe().loc[["unique", "count"]])
+    # plt.show(data[nonCategorical].boxplot())
+
+    # print(data[categoricalIds].describe())
+    # print(pd.value_counts(data[categoricalIds]))
+    # print(data[categoricalDesc].describe())
+    # print(data[categoricalDesc].describe().loc[["unique", "count"]])
+
+    # j jfor var in ["Car_desc"]:
+    #   print(pd.value_counts(data[var]))
+
+    # print(data.loc[data['Definitivo'] == 0, 'Definitivo'].count())
+
+    # todas
+    # jfor var in categoricalDesc:
+    #    print(pd.value_counts(data[var]))
 
     # plt.show(data[nonCategorical].plot())
+
+    crosstable = pd.crosstab(data["Car_desc"], data["Jur_desc"])
+    print(crosstable)
+    print(chi2_contingency(crosstable)[0])
+    print(chi2_contingency(crosstable)[1])
 
 
 if __name__ == "__main__":
